@@ -1,0 +1,49 @@
+body {
+  background-color: blanchedalmond;
+}
+h1 {
+  font-family: Arial;
+  color:black;
+}
+.first {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 450px;
+    width: 500;
+  
+}
+.first1 {
+    left:5px;
+     top: 110px;
+     font-size: 40px;
+      font-family: 'Times New Roman', Times, serif;
+color: rgb(115, 255, 0);
+position: static;
+}
+.second {
+  height: 400px;
+  width: 500;
+}
+.third {
+  height: 400px;
+  width: 500;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color:blanchedalmond;
+  }
+}
+.fixed-header{
+
+  top: 0;
+}
+.container .container1 {
+display: flex;
+  justify-content: flex-start;
+font-size: 20px;
+justify-content: space-between;
+border-style:solid;
+
+}
