@@ -1,5 +1,5 @@
 body {
-  background-color: blanchedalmond;
+  background-color: white;
 }
 h1 {
   font-family: Arial;
@@ -14,13 +14,12 @@ h1 {
     width: 500;
   
 }
-.first1 {
-    left:5px;
-     top: 110px;
-     font-size: 40px;
-      font-family: 'Times New Roman', Times, serif;
-color: rgb(115, 255, 0);
-position: static;
+
+}
+.first2 {
+  position: relative;
+  width: 600px;
+  left: 300px;
 }
 .second {
   height: 400px;
@@ -35,15 +34,19 @@ position: static;
     background-color:blanchedalmond;
   }
 }
-.fixed-header{
-
-  top: 0;
-}
 .container .container1 {
 display: flex;
-  justify-content: flex-start;
-font-size: 20px;
-justify-content: space-between;
-border-style:solid;
+background-color: blue;
+justify-content: flex-end;
 
+}
+.container .container1 a {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+.sign1 {
+float: left;
+margin-bottom: 50px
 }
