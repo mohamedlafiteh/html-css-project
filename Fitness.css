@@ -1,33 +1,73 @@
 body {
-  background-color: white;
+  background-color:blueviolet;
 }
 h1 {
-  font-family: Arial;
-  color:black;
-}
-.first {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    height: 450px;
-    width: 500;
-  
-}
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(99, 19, 5);
+  text-align: left;
 
 }
+.fond {
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(49, 6, 6);
+  text-align: left;
+  font-size: 17px
+}
+.first {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 400px;
+  width: 50;
+  padding:2px;
+  border:5px solid #021a40;
+}
+ 
+table, th, td {
+  border-style: solid;
+    border-color: rgb(99, 19, 5);
+    padding-right: 240px;
+    padding-bottom: 5px;
+    background-color:#0e9149;
+}
+.river {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
 .first2 {
-  position: relative;
-  width: 600px;
-  left: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 600px;
+  width: 50;
 }
 .second {
-  height: 400px;
-  width: 500;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 600px;
+  width: 50;
+  padding:2px;
+  border:5px solid #021a40;
 }
 .third {
   height: 400px;
   width: 500;
+}
+.third {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 600px;
+  width: 50;
+  padding:2px;
+  border:5px solid #021a40;
 }
 @media only screen and (max-width: 600px) {
   body {
@@ -49,4 +89,37 @@ justify-content: flex-end;
 .sign1 {
 float: left;
 margin-bottom: 50px
+}
+
+
+.search {
+  position: relative;
+  left: 1000px;
+  width:500px;
+  margin-top: 100px;
+}
+.languages {
+  position: relative;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  background-color: rgb(99, 19, 5);
+}
+.menu > div {
+  background-color: #0e9149;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+.fond2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px
+}
+.footer ,p {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  color: black;
+}
 }
