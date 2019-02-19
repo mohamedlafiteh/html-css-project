@@ -1,5 +1,5 @@
 body {
-  background-color:blueviolet;
+  background-color:rgb(61, 201, 226);
 }
 h1 {
   font-family: 'Times New Roman', Times, serif;
@@ -11,7 +11,15 @@ h1 {
   font-family: 'Times New Roman', Times, serif;
   color:rgb(49, 6, 6);
   text-align: left;
-  font-size: 17px
+  font-size: 17px;
+}
+#cover {
+  margin-left: auto;
+  margin-right:auto; 
+  margin-top:20px;
+  border:5px solid rgb(26, 77, 13);
+  background:#3d5e8f;
+  border-radius: 22px;
 }
 .first {
   display: block;
@@ -21,15 +29,22 @@ h1 {
   height: 400px;
   width: 50;
   padding:2px;
-  border:5px solid #021a40;
+  border-style: solid;
+border-width: 1p5x;
+border-top-color:blue;
+border-right-color: green;
+border-bottom-color: blue;
+border-left-color: green;
+border-radius: 22px;
 }
  
 table, th, td {
   border-style: solid;
-    border-color: rgb(99, 19, 5);
+    border-color: rgb(52, 52, 155);
     padding-right: 240px;
     padding-bottom: 5px;
     background-color:#0e9149;
+    border-radius: 25px;
 }
 .river {
   text-align: center;
@@ -44,6 +59,7 @@ table, th, td {
   width: 60%;
   height: 600px;
   width: 50;
+  
 }
 .second {
   display: block;
@@ -53,7 +69,8 @@ table, th, td {
   height: 600px;
   width: 50;
   padding:2px;
-  border:5px solid #021a40;
+  border:5px solid rgb(26, 77, 13);
+  border-radius: 25px;
 }
 .third {
   height: 400px;
@@ -67,7 +84,8 @@ table, th, td {
   height: 600px;
   width: 50;
   padding:2px;
-  border:5px solid #021a40;
+  border:5px solid rgb(26, 77, 13);
+  border-radius: 25px;
 }
 @media only screen and (max-width: 600px) {
   body {
@@ -89,6 +107,7 @@ justify-content: flex-end;
 .sign1 {
 float: left;
 margin-bottom: 50px
+border-radius: 25px;
 }
 
 
@@ -104,13 +123,15 @@ margin-bottom: 50px
 }
 .menu {
   display: flex;
-  background-color: rgb(99, 19, 5);
+  background-color:rgb(26, 77, 13);
+  border-radius: 25px;
 }
 .menu > div {
   background-color: #0e9149;
   margin: 10px;
   padding: 20px;
   font-size: 20px;
+  border-radius: 25px;
 }
 .fond2 {
   font-family: 'Times New Roman', Times, serif;
